@@ -56,7 +56,7 @@ PhishBlocker provides multi-platform security through:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/phishblocker.git
+   git clone https://github.com/roshankumar00036singh/phishblocker.git
    cd phishblocker
    ```
 
