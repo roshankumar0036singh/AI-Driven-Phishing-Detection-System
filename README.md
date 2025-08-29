@@ -356,7 +356,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **PhishTank**: Open phishing URL database
 - **OpenPhish**: Additional threat intelligence
-- **NextGen Hackathon**: Platform and inspiration
 - **Open Source Community**: Libraries and frameworks used
 
 ## 📞 Support
