@@ -56,8 +56,8 @@ PhishBlocker provides multi-platform security through:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/roshankumar00036singh/Advanced AI-Driven Phishing Detection System.git
-   cd phishblocker
+   git clone https://github.com/roshankumar00036singh/Advanced-AI-Driven-Phishing-Detection-System.git
+   cd PhishBlocker
    ```
 
 2. **Start with Docker Compose** (Recommended)
