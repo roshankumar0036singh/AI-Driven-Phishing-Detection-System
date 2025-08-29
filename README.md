@@ -1,7 +1,7 @@
 # PhishBlocker: Advanced AI-Driven Phishing Detection System
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)](https://fastapi.tiangolo.com)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.116.1-green)](https://fastapi.tiangolo.com)
 
 ## 🛡️ Overview
 
