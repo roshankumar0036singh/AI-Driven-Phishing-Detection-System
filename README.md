@@ -1,6 +1,4 @@
 # PhishBlocker: Advanced AI-Driven Phishing Detection System
-
-[![CI/CD Pipeline](https://github.com/roshankumar00036singh/phishblocker/workflows/AI-Driven-Phishing-Detection-System%20CI/CD%20Pipeline/badge.svg)](https://github.com/roshankumar00036singh/AI-Driven-Phishing-Detection-System/actions)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)](https://fastapi.tiangolo.com)
