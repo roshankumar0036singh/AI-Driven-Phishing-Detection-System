@@ -1,6 +1,6 @@
 # PhishBlocker: Advanced AI-Driven Phishing Detection System
 
-[![CI/CD Pipeline](https://github.com/roshankumar00036singh/phishblocker/workflows/PhishBlocker%20CI/CD%20Pipeline/badge.svg)](https://github.com/roshankumar00036singh/phishblocker/actions)
+[![CI/CD Pipeline](https://github.com/roshankumar00036singh/phishblocker/workflows/AI-Driven-Phishing-Detection-System%20CI/CD%20Pipeline/badge.svg)](https://github.com/roshankumar00036singh/AI-Driven-Phishing-Detection-System/actions)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green)](https://fastapi.tiangolo.com)
@@ -269,7 +269,6 @@ GitHub Actions automatically:
 PhishBlocker/
 ├── src/
 │   ├── api/                 # FastAPI backend
-│   ├── ml/                  # Machine learning models
 │   ├── frontend/            # Dashboard UI
 │   └── extension/           # Browser extension
 ├── data/                    # Training datasets
@@ -365,7 +364,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: [docs/](docs/)
-- **Issues**: [GitHub Issues](https://github.com/roshankumar00036singh/phishblocker/issues)
+- **Issues**: [GitHub Issues](https://github.com/roshankumar00036singh/AI-Driven-Phishing-Detection-System/issues)
 - **Email**: roshankumar00036@gmail.com
 
 ---
