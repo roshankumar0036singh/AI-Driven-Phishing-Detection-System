@@ -14,8 +14,8 @@ This guide covers deploying PhishBlocker in various environments from developmen
 
 1. **Clone and Setup**
    ```bash
-   git clone https://github.com/your-username/phishblocker.git
-   cd phishblocker
+   git clone https://github.com/roshankumar00036singh/phishblocker.git
+   cd PhishBlocker
 
    # Create virtual environment
    python -m venv venv
@@ -94,7 +94,7 @@ docker-compose logs -f phishblocker-api
    cd /opt/phishblocker
 
    # Clone repository
-   git clone https://github.com/your-username/phishblocker.git .
+   git clone https://github.com/roshankumar00036singh/phishblocker.git .
 
    # Create environment file
    cp .env.example .env
