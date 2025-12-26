@@ -365,8 +365,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Support
 
 - **Website**: https://phishblocker.com
-- **Email**: team@phishblocker.com
-- **GitHub Issues**: https://github.com/yourusername/PhishBlocker/issues
+- **Email**: roshankumar00036@gmail.com
+- **GitHub Issues**: https://github.com/roshankumar0036singh/PhishBlocker/issues
 - **Documentation**: https://docs.phishblocker.com
 
 ## 🗺️ Roadmap
