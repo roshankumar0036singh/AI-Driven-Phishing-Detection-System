@@ -366,7 +366,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Website**: https://phishblocker.com
 - **Email**: roshankumar00036@gmail.com
-- **GitHub Issues**: https://github.com/roshankumar0036singh/PhishBlocker/issues
+- **GitHub Issues**: https://github.com/roshankumar0036singh/AI-Driven-Phishing-Detection-System/issues
 - **Documentation**: https://docs.phishblocker.com
 
 ## 🗺️ Roadmap
