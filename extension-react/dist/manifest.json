@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "PhishBlocker",
+  "version": "2.0.0",
+  "description": "Advanced AI-driven phishing detection and protection",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/content.js-BKWcS94u.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "src/warning/warning.html",
+        "assets/*",
+        "assets/content.js-BKWcS94u.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}
