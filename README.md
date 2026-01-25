@@ -1,9 +1,39 @@
-# 🛡️ PhishBlocker - AI-Powered Phishing Detection System
+<div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![React 18](https://img.shields.io/badge/react-18-blue.svg)](https://reactjs.org/)
-[![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
+# 🛡️ PhishBlocker
+### AI-Powered Phishing Detection System
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&background=00000000&center=true&vCenter=true&width=435&lines=AI-Driven+Phishing+Detection;Real-time+Threat+Analysis;Protecting+Users+Worldwide;Open+Source+Security)
+
+<!-- Action Buttons -->
+<a href="https://phishblocker.com">
+  <img src="https://img.shields.io/badge/Website-PhishBlocker-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+</a>
+<a href="https://docs.phishblocker.com">
+  <img src="https://img.shields.io/badge/Documentation-Read%20Now-green?style=for-the-badge&logo=gitbook&logoColor=white" alt="Docs" />
+</a>
+<a href="https://discord.gg/yourinvite">
+  <img src="https://img.shields.io/badge/Discord-Join%20Us-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+</a>
+<a href="#">
+  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Donate" />
+</a>
+
+<!-- Stats Badges -->
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/roshankumar0036singh/AI-Driven-Phishing-Detection-System?style=flat-square" alt="Repo Size" />
+  <img src="https://img.shields.io/github/languages/count/roshankumar0036singh/AI-Driven-Phishing-Detection-System?style=flat-square" alt="Languages" />
+  <img src="https://img.shields.io/github/stars/roshankumar0036singh/AI-Driven-Phishing-Detection-System?style=flat-square" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/roshankumar0036singh/AI-Driven-Phishing-Detection-System?style=flat-square" alt="Forks" />
+  <img src="https://img.shields.io/github/license/roshankumar0036singh/AI-Driven-Phishing-Detection-System?style=flat-square" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/roshankumar0036singh/AI-Driven-Phishing-Detection-System?style=flat-square" alt="Last Commit" />
+</p>
+
+</div>
+
+---
+
+A comprehensive, production-ready phishing detection system combining advanced machine learning models with Google Gemini LLM for real-time threat analysis. Features a browser extension, analytics dashboard, and RESTful API.
 
 A comprehensive, production-ready phishing detection system combining advanced machine learning models with Google Gemini LLM for real-time threat analysis. Features a browser extension, analytics dashboard, and RESTful API.
 
@@ -79,8 +109,8 @@ A comprehensive, production-ready phishing detection system combining advanced m
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/PhishBlocker.git
-cd PhishBlocker
+git clone https://github.com/roshankumar0036singh/AI-Driven-Phishing-Detection-System.git
+cd AI-Driven-Phishing-Detection-System
 ```
 
 ### 2. Configure Environment
@@ -324,23 +354,22 @@ docker stats
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! We have a comprehensive [Open Source Program](docs/OPEN_SOURCE_PROGRAM.md) to support our community.
 
+Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before starting.
+
+### Quick Steps:
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Code Style
-- Python: Follow PEP 8
-- JavaScript: Use ESLint configuration
-- Commits: Use conventional commits
-
 ## 🔒 Security
 
 ### Reporting Vulnerabilities
-Please report security vulnerabilities to: security@phishblocker.com
+Please see our [Security Policy](SECURITY.md) for details on how to report vulnerabilities.
+Do note report security issues in public issues. Email us at: security@phishblocker.com
 
 ### Security Features
 - Input validation and sanitization

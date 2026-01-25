@@ -14,8 +14,8 @@ This guide covers deploying PhishBlocker in various environments from developmen
 
 1. **Clone and Setup**
    ```bash
-   git clone https://github.com/your-username/phishblocker.git
-   cd phishblocker
+   git clone https://github.com/roshankumar0036singh/AI-Driven-Phishing-Detection-System.git
+   cd AI-Driven-Phishing-Detection-System
 
    # Create virtual environment
    python -m venv venv
@@ -90,11 +90,11 @@ docker-compose logs -f phishblocker-api
 2. **Application Deployment**
    ```bash
    # Create application directory
-   sudo mkdir -p /opt/phishblocker
-   cd /opt/phishblocker
+   sudo mkdir -p /opt/AI-Driven-Phishing-Detection-System
+   cd /opt/AI-Driven-Phishing-Detection-System
 
    # Clone repository
-   git clone https://github.com/your-username/phishblocker.git .
+   git clone https://github.com/roshankumar0036singh/AI-Driven-Phishing-Detection-System.git .
 
    # Create environment file
    cp .env.example .env

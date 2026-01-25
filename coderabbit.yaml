@@ -1,0 +1,48 @@
+# CodeRabbit Configuration File
+# Documentation: https://docs.coderabbit.ai/guides/configure-coderabbit
+
+version: "2"
+
+language: "en-US"
+
+# Review settings
+reviews:
+  profile: "chill" # Tone: chill, assertive, or professional
+  request_changes_workflow: false # Do not auto-request changes
+  high_level_summary: true # Provide a high-level summary
+  auto_review:
+    enabled: true
+    ignore_title_keywords:
+      - "WIP"
+      - "Draft"
+    drafts: false # Do not review draft PRs
+
+# Chat settings
+chat:
+  auto_reply: true # Allow AI to reply to comments
+
+# Specific Instructions for the AI
+instructions: |
+  You are a senior security engineer and full-stack developer reviewing code for an AI-Driven Phishing Detection System.
+  
+  **Primary Goals:**
+  1.  **Security First**: aggressively look for security vulnerabilities. This is a security tool; it must be secure.
+      - Check for API key leakage.
+      - Verify input sanitization (SQLi, XSS).
+      - Ensure dependencies are secure.
+  2.  **Performance**: The system requires <100ms response times. Point out any inefficient loops, heavy synchronous operations, or memory leaks.
+  3.  **Code Quality**: Enforce clean code practices, proper error handling, and type safety (Python type hints, strict TypeScript/Prop-types).
+  
+  **Specific Tech Stack Guidance:**
+  - **Python (FastAPI)**: Ensure async/await is used correctly. Check Pydantic models for validation.
+  - **React**: Ensure hooks are used correctly. Check for unnecessary re-renders. Avoid inline styles where possible.
+  - **Docker**: meaningful tags, multi-stage builds for small images.
+
+  **Tone:**
+  - Be helpful and constructive.
+  - Explain *why* a change is recommended.
+  - Praise good code when you see it!
+
+plugins:
+  ast_grep:
+    enabled: true # Enable static analysis
