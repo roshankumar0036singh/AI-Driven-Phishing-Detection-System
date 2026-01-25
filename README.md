@@ -351,6 +351,7 @@ docker stats
 - **Performance Guide**: [docs/PERFORMANCE_GUIDE.md](docs/PERFORMANCE_GUIDE.md)
 - **LLM Integration**: [docs/GEMINI_LLM_GUIDE.md](docs/GEMINI_LLM_GUIDE.md)
 - **Security Guide**: [docs/PHASE4_SECURITY_MONITORING_GUIDE.md](docs/PHASE4_SECURITY_MONITORING_GUIDE.md)
+- **Changelog**: [CHANGELOG.md](CHANGELOG.md)
 
 ## 🤝 Contributing
 
